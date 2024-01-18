@@ -18,24 +18,25 @@ body{
     margin: 0;
 }
 
-ul{
-    list-style: none;
-    display: flex;
-}
-
 .site_header{
     height: 50px;
     background-color: var(--dis-bg-head);
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 
 .container_flex{
     display: flex;
     background-color: var(--dis-head);
+    height: 40px;
+    align-items: center;
+    width: 1100px;
+    justify-content: space-between;
 }
-
 .first{
     background-color: #00018a;
     height: 300px;
