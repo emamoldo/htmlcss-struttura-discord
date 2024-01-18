@@ -13,3 +13,25 @@
     --dis-sixth-rectangle: #20b2aa;
     --dis-footer: #7ffed5;
 }
+
+body{
+    margin: 0;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+
+.site_header{
+    height: 50px;
+    background-color: var(--dis-bg-head);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container_flex{
+    background-color: var(--dis-head);
+}
