@@ -32,6 +32,7 @@ ul{
 }
 
 .container_flex{
+    display: flex;
     background-color: var(--dis-head);
 }
 
@@ -155,7 +156,22 @@ ul{
 
 hr{
     margin: 0;
+    height: 1px;
 }
 
+.site_footer{
+    background-color: #7ffed5;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 30px;
+    padding-top: 10px;
+}
 
-
+#site_footer{
+    background-color: #23272a;
+    padding-top: 20px;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+}
