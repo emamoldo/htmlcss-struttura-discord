@@ -18,12 +18,10 @@ body{
     margin: 0;
 }
 
-
 ul{
     list-style: none;
     display: flex;
 }
-
 
 .site_header{
     height: 50px;
@@ -32,6 +30,79 @@ ul{
     align-items: center;
     justify-content: space-around;
 }
+
 .container_flex{
     background-color: var(--dis-head);
+}
+
+
+.first{
+    background-color: #00018a;
+    height: 300px;
+    padding-top: 20px;
+}
+.first_rectangle{
+    background-color: #ef83ee;
+    height: 200px;
+    padding-bottom: 80px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.second{
+    background-color: #ffffff;
+    height: 350px;
+    padding-top: 20px;
+    display: flex;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 20px;
+}
+.second_rectangle{
+    background-color: #1e91fe;
+    width: 75%;
+    
+}
+.second_aside{
+    background-color: #ef83ee;
+    width: 25%;
+}
+
+.third{
+    background-color: #d3d3d3;
+    height: 350px;
+    padding-top: 20px;
+    display: flex;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 20px;
+}
+
+#third_rectangle{
+    background-color: #ef83ee;
+    width: 25%;
+
+}
+#third_aside{
+    background-color: #1e91fe;
+    width: 75%;
+}
+
+.fourth{
+    background-color: #ffffff;
+    height: 350px;
+    padding-top: 20px;
+    display: flex;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 20px;
+}
+.fourth_rectangle{
+    background-color: #1e91fe;
+    width: 75%;
+    
+}
+.fourth_aside{
+    background-color: #ef83ee;
+    width: 25%;
 }
